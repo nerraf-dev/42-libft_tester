@@ -3,7 +3,7 @@
 # include <assert.h>
 # include <stdio.h>
 # include <string.h>
-# include "../libft/libft.h" // Include the header file for the function you're testing
+# include "../libft.h" // Include the header file for the function you're testing
 
 void test_ft_isalpha(void);
 void test_ft_isdigit(void);
