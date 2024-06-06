@@ -1,7 +1,7 @@
-CC = gcc
+CC = clang
 CFLAGS = -Wall -Wextra -Werror
 # Probably want to check if the libft is up to date and the location
-LDFLAGS = -L../libft -lft
+LDFLAGS = -L../ -lft
 NAME = tests
 SRCS = tests.c $(wildcard test_*.c)
 OBJS = $(SRCS:.c=.o)
